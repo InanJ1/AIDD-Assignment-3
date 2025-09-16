@@ -1,0 +1,24 @@
+INFO:PASS: Valid employee
+ERROR:FAIL: Reject digits in fname -> First name cannot contain digits.
+ERROR:FAIL: Reject empty lname -> Last name cannot be empty.
+ERROR:FAIL: Reject wrong dept -> Department must be exactly 3 uppercase letters (e.g., 'ITD').
+ERROR:FAIL: Reject short phone -> Phone number must have exactly 10 digits.
+INFO:PASS: ID read-only
+INFO:PASS: Valid employee
+ERROR:FAIL: Reject digits in fname -> First name cannot contain digits.
+ERROR:FAIL: Reject empty lname -> Last name cannot be empty.
+ERROR:FAIL: Reject wrong dept -> Department must be exactly 3 uppercase letters.
+ERROR:FAIL: Reject short phone -> Phone number must have exactly 10 digits.
+INFO:PASS: ID read-only
+INFO:PASS: Valid employee
+ERROR:FAIL: Reject digits in fname -> First name cannot contain digits.
+ERROR:FAIL: Reject empty lname -> Last name cannot be empty.
+ERROR:FAIL: Reject wrong dept -> Department must be exactly 3 uppercase letters.
+ERROR:FAIL: Reject short phone -> Phone number must have exactly 10 digits.
+INFO:PASS: ID read-only
+INFO:PASS: Valid employee
+INFO:PASS: Reject digits in fname (caught: First name cannot contain digits.)
+INFO:PASS: Reject empty lname (caught: Last name cannot be empty.)
+INFO:PASS: Reject wrong dept (caught: Department must be exactly 3 uppercase letters.)
+INFO:PASS: Reject short phone (caught: Phone number must have exactly 10 digits.)
+INFO:PASS: ID read-only

@@ -3,7 +3,7 @@ EmployeeApp.py — CLI user interface for Employee Management.
 Business rules are enforced in employee.py; persistence and helpers in storage.py.
 """
 from typing import List
-from employee import Employee
+from employee_model import Employee
 from storage import load_employees, save_employees, create_employee, edit_employee, delete_employee, display_employees
 
 
